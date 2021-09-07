@@ -2,6 +2,7 @@ import React from 'react'
 import { graphql } from 'gatsby'
 import Layout from '../components/Layout'
 import StyledHero from '../components/StyledHero'
+import HeroTop from '../components/common/HeroTop'
 import HeroBanner from '../components/HeroBanner'
 // import Posts from '../components/Posts'
 import AboutSection from '../components/common/AboutSection'
@@ -22,12 +23,10 @@ const IndexPage = ({ data }) => {
   return (
     <Layout>
       <SEO title="Home " />
-      {/* <HeroSpacer /> */}
-      <StyledHero>
+      <HeroTop>
         <HeroBanner title="Hello & Welcome!" info="" />
-      </StyledHero>
-      {/* <Posts posts={posts} title="recently published" /> */}
-      {/* <RecentPosts posts={posts} title="recently published" /> */}
+      </HeroTop>
+
       {/* <main> */}
       <RecentSeries series={series} title="articles by series" />
 

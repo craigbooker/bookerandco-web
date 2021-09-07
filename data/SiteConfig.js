@@ -1,14 +1,14 @@
 const config = {
-  siteTitle: 'Craig Booker || The official site of Craig Booker', // Site title.
-  siteTitleShort: 'Craig Booker', // Short site title for homescreen (PWA). Preferably should be under 12 characters to prevent truncation.
-  siteTitleAlt: 'Craig Booker, writer, author', // Alternative site title for SEO.
+  siteTitle: 'Booker & Co || The official site of Booker & Co', // Site title.
+  siteTitleShort: 'Booker & Co', // Short site title for homescreen (PWA). Preferably should be under 12 characters to prevent truncation.
+  siteTitleAlt: 'Booker & Co', // Alternative site title for SEO.
   siteLogo: '/logos/logo-1024.png', // Logo used for SEO and manifest.
   siteUrl: 'https://craigbooker.com', // Domain of your website without pathPrefix.
   pathPrefix: '/', // Prefixes all links. For cases when deployed to example.github.io/gatsby-advanced-starter/.
-  siteDescription: 'Craig Booker || writer, author, husband, father', // Website description used for RSS feeds/meta description tag.
+  siteDescription: 'We pride ourself on writing quality content.', // Website description used for RSS feeds/meta description tag.
   siteRss: '/rss.xml', // Path to the RSS file.
-  siteRssTitle: 'craigbooker.com RSS feed', // Title of the RSS feed
-  siteFBAppID: '1825356251115265', // FB Application ID for using app insights
+  siteRssTitle: 'Booker & Co RSS feed', // Title of the RSS feed
+  siteFBAppID: '', // FB Application ID for using app insights
   //googleAnalyticsID: 'UA-47311644-5', // GA tracking ID.
   googleAnalyticsID: 'UA-127519592-2', // GA tracking ID.
   disqusShortname: 'craigbooker', // Disqus shortname.
@@ -33,16 +33,22 @@ const config = {
     },
     {
       label: 'Twitter',
-      url: 'https://twitter.com/craigbooker',
+      url: 'https://twitter.com/bookerandco',
       iconClassName: 'fa fa-twitter',
     },
+    {
+      label: 'Facebook',
+      url: 'https://facebook.com/bookerandcompany',
+      iconClassName: 'fa fa-facebook',
+    },
+
     {
       label: 'Email',
       url: 'mailto:arcadiaswx@gmail.com',
       iconClassName: 'fa fa-envelope',
     },
   ],
-  copyright: 'Craig Booker', // Copyright string for the footer of the website and RSS feed.
+  copyright: 'Booker & Co', // Copyright string for the footer of the website and RSS feed.
   themeColor: '#c62828', // Used for setting manifest and progress theme colors.
   backgroundColor: '#e0e0e0', // Used for setting manifest background color.
 }
