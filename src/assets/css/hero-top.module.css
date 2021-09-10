@@ -1,12 +1,14 @@
 .hero-top {
-  padding: 5rem 0;
+  padding: 2rem 0;
   background-repeat: no-repeat;
-  background-position: center;
   background-size: cover;
+
   color: #ffffff;
   text-align: center;
+  display: flex;
+  justify-content: center;
   align-items: center;
-  height: 50vh;
+  height: 45vh;
   min-height: 360px;
 }
 
@@ -65,7 +67,7 @@
 @media only screen and (min-width: 1024px) {
   /* styles for browsers larger than 1024px 64em ; */
   .hero-top {
-    max-height: 900px;
+    max-height: 500px;
     min-height: 400px;
   }
 }
