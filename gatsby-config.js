@@ -12,7 +12,7 @@ module.exports = {
   siteMetadata: {
     title: config.siteTitle, //`Craig Booker`
     description: config.siteDescription,
-    titleTemplate: `%s | The official site of Booker & Co`,
+    titleTemplate: `%s | Booker & Co`,
     url: `https://craigbookerv2.netlify.app/`,
     twitterUsername: config.userTwitter,
     image: `/mainImg.png`,
