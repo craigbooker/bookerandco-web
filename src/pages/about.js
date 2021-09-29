@@ -7,7 +7,7 @@ import Layout from '../components/Layout'
 import SEO from '../components/Seo'
 import AboutHeader from '../components/About/AboutHeader'
 import AboutSection from '../components/common/AboutSection'
-
+import ServicesList from '../components/common/ServicesList'
 import Title from '../components/Title'
 
 import {
@@ -27,6 +27,7 @@ const About = ({ data }) => {
       </StyledHero>
       {/* <Hero /> */}
       <AboutHeader />
+      <ServicesList />
       <br />
     </Layout>
   )

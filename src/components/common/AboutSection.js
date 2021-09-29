@@ -15,7 +15,7 @@ const AboutSection = () => {
   // const { aboutImage } = useStaticQuery(getAboutImage)
   return (
     <section className={aboutSection}>
-      <Title title="about" subtitle="craig" />
+      <Title title="about" subtitle="" />
       <div className={aboutCenter}>
         <article className={aboutImg}>
           <StaticImage

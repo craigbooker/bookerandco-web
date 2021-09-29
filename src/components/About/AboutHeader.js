@@ -14,7 +14,7 @@ const AboutHeader = () => {
   // const { aboutImage } = useStaticQuery(getAboutImage)
   return (
     <section className={about}>
-      <Title title="about" subtitle="craig" />
+      <Title title="about craig" subtitle="" />
       <div className={aboutCenter}>
         <article className={aboutImg}>
           <StaticImage
@@ -26,8 +26,13 @@ const AboutHeader = () => {
         <article className={aboutInfo}>
           <h4></h4>
           <p>
-            My name is Craig Booker. I'm a Writer and Software Developer from
-            Oklahoma City, Oklahoma.
+            I am a writer and the founder of Booker & Co. I love to write on
+            topics such as Apple, Business, Fear, Faith, Personal Growth,
+            Writing & Software.
+          </p>
+          <p>
+            I help others create amazing content which adds value, builds
+            loyalty, and engages their audience.
           </p>
         </article>
       </div>

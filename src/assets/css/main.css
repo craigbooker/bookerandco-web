@@ -39,7 +39,7 @@ Variables
   --clr-grey-5: hsl(210, 22%, 49%);
   --clr-grey-8: hsl(210, 31%, 80%);
   --clr-grey-9: hsl(212, 33%, 89%);
-  --clr-grey-10: hsl(206, 33%, 96%);
+  --clr-grey-10: hsl(210, 33%, 96%);
   --clr-green-dark: hsl(125, 67%, 35%);
   --clr-green-light: hsl(134, 41%, 88%);
   --clr-red-dark: hsl(360, 67%, 44%);
@@ -173,7 +173,40 @@ p {
   text-align: center;
   margin: 3rem auto;
 }
+
 /* section */
+.section {
+  padding: 5rem 0;
+}
+
+.section-center {
+  width: 90vw;
+  margin: 0 auto;
+  max-width: 1170px;
+}
+@media screen and (min-width: 992px) {
+  .section-center {
+    width: 95vw;
+  }
+}
+
+.underline {
+  width: 5rem;
+  height: 0.25rem;
+  margin-bottom: 1.25rem;
+  background: var(--clr-primary-5);
+  margin-left: auto;
+  margin-right: auto;
+}
+.section-title {
+  margin-bottom: 4rem;
+  text-align: center;
+}
+
+.bg-grey {
+  background: var(--clr-grey-10);
+}
+
 .page-center {
   width: 90vw;
   margin: 0 auto;
@@ -185,9 +218,6 @@ p {
   }
 }
 
-.bg-grey {
-  background: var(--clr-grey-10);
-}
 /* social links */
 
 main {
